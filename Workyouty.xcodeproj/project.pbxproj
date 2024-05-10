@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		CA9280582BEEA78E009C8345 /* Workyouty Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA9280572BEEA78E009C8345 /* Workyouty Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CA92805D2BEEA78E009C8345 /* WorkyoutyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92805C2BEEA78E009C8345 /* WorkyoutyApp.swift */; };
-		CA92805F2BEEA78E009C8345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92805E2BEEA78E009C8345 /* ContentView.swift */; };
+		CA92805F2BEEA78E009C8345 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92805E2BEEA78E009C8345 /* StartView.swift */; };
 		CA9280612BEEA78E009C8345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9280602BEEA78E009C8345 /* Assets.xcassets */; };
 		CA9280642BEEA78E009C8345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9280632BEEA78E009C8345 /* Preview Assets.xcassets */; };
 		CA92806E2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92806D2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift */; };
 		CA9280782BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9280772BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift */; };
 		CA92807A2BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9280792BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift */; };
+		CA92808B2BEEAFDB009C8345 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92808A2BEEAFDB009C8345 /* SessionPagingView.swift */; };
+		CA92808D2BEEB1E9009C8345 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92808C2BEEB1E9009C8345 /* MetricsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +61,7 @@
 		CA9280512BEEA78E009C8345 /* Workyouty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workyouty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9280572BEEA78E009C8345 /* Workyouty Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workyouty Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA92805C2BEEA78E009C8345 /* WorkyoutyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkyoutyApp.swift; sourceTree = "<group>"; };
-		CA92805E2BEEA78E009C8345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA92805E2BEEA78E009C8345 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		CA9280602BEEA78E009C8345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9280632BEEA78E009C8345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA9280692BEEA78E009C8345 /* Workyouty Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workyouty Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,8 @@
 		CA9280732BEEA78E009C8345 /* Workyouty Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workyouty Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA9280772BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workyouty_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		CA9280792BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workyouty_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA92808A2BEEAFDB009C8345 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		CA92808C2BEEB1E9009C8345 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		CA92804A2BEEA78D009C8345 = {
 			isa = PBXGroup;
 			children = (
+				CA92808C2BEEB1E9009C8345 /* MetricsView.swift */,
 				CA92805B2BEEA78E009C8345 /* Workyouty Watch App */,
 				CA92806C2BEEA78E009C8345 /* Workyouty Watch AppTests */,
 				CA9280762BEEA78E009C8345 /* Workyouty Watch AppUITests */,
@@ -119,7 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				CA92805C2BEEA78E009C8345 /* WorkyoutyApp.swift */,
-				CA92805E2BEEA78E009C8345 /* ContentView.swift */,
+				CA92805E2BEEA78E009C8345 /* StartView.swift */,
+				CA92808A2BEEAFDB009C8345 /* SessionPagingView.swift */,
 				CA9280602BEEA78E009C8345 /* Assets.xcassets */,
 				CA9280622BEEA78E009C8345 /* Preview Content */,
 			);
@@ -309,8 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA92805F2BEEA78E009C8345 /* ContentView.swift in Sources */,
+				CA92805F2BEEA78E009C8345 /* StartView.swift in Sources */,
 				CA92805D2BEEA78E009C8345 /* WorkyoutyApp.swift in Sources */,
+				CA92808D2BEEB1E9009C8345 /* MetricsView.swift in Sources */,
+				CA92808B2BEEAFDB009C8345 /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
