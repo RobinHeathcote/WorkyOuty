@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA9280582BEEA78E009C8345 /* Workyouty Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA9280572BEEA78E009C8345 /* Workyouty Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA92805D2BEEA78E009C8345 /* WorkyoutyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92805C2BEEA78E009C8345 /* WorkyoutyApp.swift */; };
+		CA92805F2BEEA78E009C8345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92805E2BEEA78E009C8345 /* ContentView.swift */; };
+		CA9280612BEEA78E009C8345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9280602BEEA78E009C8345 /* Assets.xcassets */; };
+		CA9280642BEEA78E009C8345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9280632BEEA78E009C8345 /* Preview Assets.xcassets */; };
+		CA92806E2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92806D2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift */; };
+		CA9280782BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9280772BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift */; };
+		CA92807A2BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9280792BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA9280592BEEA78E009C8345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA92804B2BEEA78D009C8345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9280562BEEA78E009C8345;
+			remoteInfo = "Workyouty Watch App";
+		};
+		CA92806A2BEEA78E009C8345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA92804B2BEEA78D009C8345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9280562BEEA78E009C8345;
+			remoteInfo = "Workyouty Watch App";
+		};
+		CA9280742BEEA78E009C8345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA92804B2BEEA78D009C8345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA9280562BEEA78E009C8345;
+			remoteInfo = "Workyouty Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA9280802BEEA78E009C8345 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CA9280582BEEA78E009C8345 /* Workyouty Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA9280512BEEA78E009C8345 /* Workyouty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workyouty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9280572BEEA78E009C8345 /* Workyouty Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workyouty Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA92805C2BEEA78E009C8345 /* WorkyoutyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkyoutyApp.swift; sourceTree = "<group>"; };
+		CA92805E2BEEA78E009C8345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA9280602BEEA78E009C8345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA9280632BEEA78E009C8345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA9280692BEEA78E009C8345 /* Workyouty Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workyouty Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA92806D2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workyouty_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CA9280732BEEA78E009C8345 /* Workyouty Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workyouty Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9280772BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workyouty_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CA9280792BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workyouty_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA9280542BEEA78E009C8345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9280662BEEA78E009C8345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9280702BEEA78E009C8345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA92804A2BEEA78D009C8345 = {
+			isa = PBXGroup;
+			children = (
+				CA92805B2BEEA78E009C8345 /* Workyouty Watch App */,
+				CA92806C2BEEA78E009C8345 /* Workyouty Watch AppTests */,
+				CA9280762BEEA78E009C8345 /* Workyouty Watch AppUITests */,
+				CA9280522BEEA78E009C8345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA9280522BEEA78E009C8345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA9280512BEEA78E009C8345 /* Workyouty.app */,
+				CA9280572BEEA78E009C8345 /* Workyouty Watch App.app */,
+				CA9280692BEEA78E009C8345 /* Workyouty Watch AppTests.xctest */,
+				CA9280732BEEA78E009C8345 /* Workyouty Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA92805B2BEEA78E009C8345 /* Workyouty Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CA92805C2BEEA78E009C8345 /* WorkyoutyApp.swift */,
+				CA92805E2BEEA78E009C8345 /* ContentView.swift */,
+				CA9280602BEEA78E009C8345 /* Assets.xcassets */,
+				CA9280622BEEA78E009C8345 /* Preview Content */,
+			);
+			path = "Workyouty Watch App";
+			sourceTree = "<group>";
+		};
+		CA9280622BEEA78E009C8345 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA9280632BEEA78E009C8345 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA92806C2BEEA78E009C8345 /* Workyouty Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA92806D2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift */,
+			);
+			path = "Workyouty Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CA9280762BEEA78E009C8345 /* Workyouty Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA9280772BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift */,
+				CA9280792BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Workyouty Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA9280502BEEA78E009C8345 /* Workyouty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9280812BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty" */;
+			buildPhases = (
+				CA92804F2BEEA78E009C8345 /* Resources */,
+				CA9280802BEEA78E009C8345 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA92805A2BEEA78E009C8345 /* PBXTargetDependency */,
+			);
+			name = Workyouty;
+			productName = Workyouty;
+			productReference = CA9280512BEEA78E009C8345 /* Workyouty.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CA9280562BEEA78E009C8345 /* Workyouty Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA92807D2BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty Watch App" */;
+			buildPhases = (
+				CA9280532BEEA78E009C8345 /* Sources */,
+				CA9280542BEEA78E009C8345 /* Frameworks */,
+				CA9280552BEEA78E009C8345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workyouty Watch App";
+			productName = "Workyouty Watch App";
+			productReference = CA9280572BEEA78E009C8345 /* Workyouty Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA9280682BEEA78E009C8345 /* Workyouty Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9280842BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty Watch AppTests" */;
+			buildPhases = (
+				CA9280652BEEA78E009C8345 /* Sources */,
+				CA9280662BEEA78E009C8345 /* Frameworks */,
+				CA9280672BEEA78E009C8345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA92806B2BEEA78E009C8345 /* PBXTargetDependency */,
+			);
+			name = "Workyouty Watch AppTests";
+			productName = "Workyouty Watch AppTests";
+			productReference = CA9280692BEEA78E009C8345 /* Workyouty Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA9280722BEEA78E009C8345 /* Workyouty Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9280872BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty Watch AppUITests" */;
+			buildPhases = (
+				CA92806F2BEEA78E009C8345 /* Sources */,
+				CA9280702BEEA78E009C8345 /* Frameworks */,
+				CA9280712BEEA78E009C8345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA9280752BEEA78E009C8345 /* PBXTargetDependency */,
+			);
+			name = "Workyouty Watch AppUITests";
+			productName = "Workyouty Watch AppUITests";
+			productReference = CA9280732BEEA78E009C8345 /* Workyouty Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA92804B2BEEA78D009C8345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CA9280502BEEA78E009C8345 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CA9280562BEEA78E009C8345 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CA9280682BEEA78E009C8345 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CA9280562BEEA78E009C8345;
+					};
+					CA9280722BEEA78E009C8345 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CA9280562BEEA78E009C8345;
+					};
+				};
+			};
+			buildConfigurationList = CA92804E2BEEA78D009C8345 /* Build configuration list for PBXProject "Workyouty" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA92804A2BEEA78D009C8345;
+			productRefGroup = CA9280522BEEA78E009C8345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA9280502BEEA78E009C8345 /* Workyouty */,
+				CA9280562BEEA78E009C8345 /* Workyouty Watch App */,
+				CA9280682BEEA78E009C8345 /* Workyouty Watch AppTests */,
+				CA9280722BEEA78E009C8345 /* Workyouty Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA92804F2BEEA78E009C8345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9280552BEEA78E009C8345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA9280642BEEA78E009C8345 /* Preview Assets.xcassets in Resources */,
+				CA9280612BEEA78E009C8345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9280672BEEA78E009C8345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9280712BEEA78E009C8345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA9280532BEEA78E009C8345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92805F2BEEA78E009C8345 /* ContentView.swift in Sources */,
+				CA92805D2BEEA78E009C8345 /* WorkyoutyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA9280652BEEA78E009C8345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92806E2BEEA78E009C8345 /* Workyouty_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA92806F2BEEA78E009C8345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92807A2BEEA78E009C8345 /* Workyouty_Watch_AppUITestsLaunchTests.swift in Sources */,
+				CA9280782BEEA78E009C8345 /* Workyouty_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA92805A2BEEA78E009C8345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9280562BEEA78E009C8345 /* Workyouty Watch App */;
+			targetProxy = CA9280592BEEA78E009C8345 /* PBXContainerItemProxy */;
+		};
+		CA92806B2BEEA78E009C8345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9280562BEEA78E009C8345 /* Workyouty Watch App */;
+			targetProxy = CA92806A2BEEA78E009C8345 /* PBXContainerItemProxy */;
+		};
+		CA9280752BEEA78E009C8345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA9280562BEEA78E009C8345 /* Workyouty Watch App */;
+			targetProxy = CA9280742BEEA78E009C8345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA92807B2BEEA78E009C8345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA92807C2BEEA78E009C8345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CA92807E2BEEA78E009C8345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Workyouty Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Workyouty;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robinHeathcote.Workyouty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		CA92807F2BEEA78E009C8345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Workyouty Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Workyouty;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robinHeathcote.Workyouty.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		CA9280822BEEA78E009C8345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Workyouty;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robinHeathcote.Workyouty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA9280832BEEA78E009C8345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Workyouty;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = robinHeathcote.Workyouty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA9280852BEEA78E009C8345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robinHeathcote.Workyouty-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workyouty Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Workyouty Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		CA9280862BEEA78E009C8345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robinHeathcote.Workyouty-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workyouty Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Workyouty Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		CA9280882BEEA78E009C8345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robinHeathcote.Workyouty-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Workyouty Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		CA9280892BEEA78E009C8345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "robinHeathcote.Workyouty-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Workyouty Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA92804E2BEEA78D009C8345 /* Build configuration list for PBXProject "Workyouty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA92807B2BEEA78E009C8345 /* Debug */,
+				CA92807C2BEEA78E009C8345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA92807D2BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA92807E2BEEA78E009C8345 /* Debug */,
+				CA92807F2BEEA78E009C8345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9280812BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9280822BEEA78E009C8345 /* Debug */,
+				CA9280832BEEA78E009C8345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9280842BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9280852BEEA78E009C8345 /* Debug */,
+				CA9280862BEEA78E009C8345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9280872BEEA78E009C8345 /* Build configuration list for PBXNativeTarget "Workyouty Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9280882BEEA78E009C8345 /* Debug */,
+				CA9280892BEEA78E009C8345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA92804B2BEEA78D009C8345 /* Project object */;
+}
