@@ -12,7 +12,13 @@ struct Workyouty_Watch_AppApp: App {
     @StateObject var workoutManager = WorkoutManager()
     var body: some Scene {
         WindowGroup {
-            StartView()
-        }.environmentObject(workoutManager)
+            NavigationView {
+                StartView()
+            }
+            .sheet(isPresented: $workoutManager.showingSummaryView) {
+                SummaryView()
+            }
+            .environmentObject(workoutManager)
+        }
     }
 }
